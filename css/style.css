@@ -34,7 +34,7 @@ html,body{
 	background-position: center;
 }
 
-.container-banner > .center{
+.container-banner .center{
 	height: 100%;
 }
 
@@ -108,9 +108,9 @@ html,body{
 
 .container-list{
 	padding: 30px;
-	margin-top: 40px;
+	margin-top: 100px;
 	float: left;
-	width: 619px;
+	width: 519px;
 	height: 270px;
 	background-color: rgba(33, 35, 67,0.7);
 }
@@ -151,4 +151,47 @@ html,body{
 	background-size: 100% 100%;
 
 	background-image: url(../images/arrow.png);
+}
+
+.section-1{
+	padding: 90px 0;
+}
+
+.section-1 h2{
+	text-align: center;
+	color:#462663;
+	font-weight: normal;
+}
+
+.container-section{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.container-single{
+	float: left;
+	width: 33.33%;
+	padding: 30px;
+}
+
+.container-single img{
+	width: 80px;
+}
+
+.container-single p{
+	text-align: justify;
+	padding: 10px 25px;
+}
+
+.footer{
+	padding: 20px 0;
+	border-top:4px solid #888888;
+	clear: both;
+	text-align: center;
+	color:#888
+}
+
+
+.footer p{
+	margin-top: 8px ;
 }
